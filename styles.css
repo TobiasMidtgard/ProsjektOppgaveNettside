@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #2e3440;
+  color: #eceff4;
+  font-size: 20px;
+}
+
+h1.MainHeader {
+  width: 90%;
+  margin: 100px auto 0;
+  max-width: 900px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h2.TitleHeaders {
+  width: 90%;
+  margin: 100px auto 0;
+  max-width: 900px;
+  margin-bottom: 1em;
+}
+
+h3.subHeader {
+  width: 90%;
+  margin: 100px auto 0;
+  max-width: 900px;
+  margin-bottom: 1em;
+}
+
+p {
+  width: 90%;
+  margin: 25px auto 0;
+  max-width: 900px;
+  line-height: 2rem;
+}
+
+li {
+  width: 90%;
+  margin: 100px auto 0;
+  max-width: 900px;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  position: relative;
+  bottom: 2px;
+  margin: 10px 0px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+div.headermargin {
+  margin: 35em;
+}
+
+div.questions {
+  width: 90%;
+  margin: 100px auto 0;
+  max-width: 600px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+div.questions div {
+  padding-top: 20px;
+}
+
+div.sideNavBar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3b4252;
+  overflow-x: hidden;
+  padding-bottom: 25px;
+  border-right: 5px solid #5e81ac;
+}
+
+.sideNavBar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  height: 40px;
+  color: #d8dee9;
+}
+
+.sideNavBar div {
+  padding: 56px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  height: 40px;
+  color: #d8dee9;
+}
+
+.sideNavBar a:hover {
+  color: #f1f1f1;
+}
+
+.Chapter {
+  display: block;
+}
+
+.container {
+  background-color: #3b4252;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app {
+  background-color: #3b4252;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-size: 25px;
+  color: #eceff4;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.quiz {
+  padding: 20px 0px;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #eceff4;
+  font-weight: 600;
+}
+
+.btn {
+  background: #3b4252;
+  color: #eceff4;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #eceff4;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+  background: #d8dee9;
+  color: #2e3440;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+.nextButton {
+  background: #5e81ac;
+  color: #eceff4;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 30px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background: #a3be8c;
+  color: #2e3440;
+}
+
+.incorrect {
+  background: #bf616a;
+  color: #2e3440;
+}
