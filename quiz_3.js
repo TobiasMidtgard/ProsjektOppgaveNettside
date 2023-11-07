@@ -1,46 +1,58 @@
 const questions3 = [
   [
     {
-      question3: "Hva bør du gjøre dersom du blir ringt av en svindler",
+      question3:
+        "Kan vi si at det er et svindelforsølk om en teknikker ønsker tilgang til datamaskinen",
       answers3: [
-        { text: "Ikke ta telefonen og blokkere nummeret.", correct: true },
-        { text: "Ringe 113 og anmelde svindelforsøket.", correct: false },
+        { text: "Nei", correct: true },
+        { text: "Ja", correct: false },
+      ],
+    },
+    {
+      question3: "Hva slags metoder bruker svindlere for å skremme offeret",
+      answers3: [
         {
-          text: "Ta telefonen og informere dem om at du er klar over at de driver med svindel.",
+          text: "Bruker Windows defender til å skanne etter virus",
           correct: false,
         },
+        { text: "Bruker nettsider med falske varsler om virus", correct: true },
         {
-          text: "Sette opp et program som konstant ringer dem og gjør det umulig for dem å ringe mulige offere.",
+          text: "Forfalskning av virus ved å bruke ledetekst og uviktige feil",
+          correct: true,
+        },
+        {
+          text: "Bruker avanserte metoder for å skaffe admin tilgang til datamaskinen",
           correct: false,
         },
-        { text: "Svindle svindlerene.", correct: false },
       ],
     },
     {
-      question3: "Question",
+      question3:
+        "Hva bør vi være veldig oppmerksomme på når en teknikker fikser virus?",
       answers3: [
-        { text: "Answer 1", correct: false },
-        { text: "TEST 3", correct: true },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: false },
+        { text: "Passordbeskyttelse av filer", correct: true },
+        {
+          text: "Svindleren logger inn på nettbanken og tømmer den for penger",
+          correct: false,
+        },
+        { text: "Låsing av maskinen ved bruk av syskey", correct: false },
+        { text: "Åpning av ledetekst", correct: false },
       ],
     },
     {
-      question3: "Question",
+      question3:
+        "Hvilke metoder brukes ikke for å få betalt i en teknisk støtte-svindel",
       answers3: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 3", correct: true },
-        { text: "Answer 4", correct: false },
-      ],
-    },
-    {
-      question3: "Question",
-      answers3: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: true },
+        { text: "Salg av falske antivirus programmer", correct: false },
+        {
+          text: "Låsing av filer og programmer for å hente løsepenger",
+          correct: false,
+        },
+        { text: "Betalt for fiksing av virus", correct: false },
+        {
+          text: "Sender falske Utgjør seg for å være Microsoft som krever penger for Windows defender",
+          correct: true,
+        },
       ],
     },
   ],
