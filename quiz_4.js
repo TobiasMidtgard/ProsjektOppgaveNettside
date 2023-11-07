@@ -1,46 +1,53 @@
 const questions4 = [
   [
     {
-      question4: "Hva bør du gjøre dersom du blir ringt av en svindler",
+      question4:
+        "Hvilke av disse betalingstjenestene blir bare brukt til svindel?",
       answers4: [
-        { text: "Ikke ta telefonen og blokkere nummeret.", correct: true },
-        { text: "Ringe 114 og anmelde svindelforsøket.", correct: false },
+        { text: "Kort", correct: false },
+        { text: "Gavekort", correct: true },
+        { text: "Bankoverføring", correct: false },
+        { text: "Crypto", correct: false },
+        { text: "Kontant", correct: false },
+      ],
+    },
+    {
+      question4:
+        "Dersom du blir spurt om å betale som venn eller familie gjennom bankoverførelse bør du:",
+      answers4: [
         {
-          text: "Ta telefonen og informere dem om at du er klar over at de driver med svindel.",
-          correct: false,
+          text: "Ikke overføre penger, fordi du ikke har noen sikkerhet og det kan være svindel",
+          correct: true,
         },
         {
-          text: "Sette opp et program som konstant ringer dem og gjør det umulig for dem å ringe mulige offere.",
+          text: "Kreve en lavere pris, med tanke på at du sparer de penger",
           correct: false,
         },
-        { text: "Svindle svindlerene.", correct: false },
+        { text: "Betale for tjensten", correct: false },
+        {
+          text: "Betale for tjenesten, men som tjeneste og service",
+          correct: false,
+        },
       ],
     },
     {
-      question4: "Question",
+      question4: "Hvilke av disse betalingsmetodene har sikkerhet",
       answers4: [
-        { text: "Answer 1", correct: false },
-        { text: "TEST 4", correct: true },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: false },
+        { text: "Crypto", correct: false },
+        { text: "Gavekort", correct: false },
+        { text: "Kredittkort", correct: true },
+        { text: "Kontant", correct: false },
+        { text: "Bankoverføring - Venner og familie", correct: false },
+        { text: "Sjekk", correct: false },
       ],
     },
     {
-      question4: "Question",
+      question4: "Dersom noen bare aksepterer crypto bør du:",
       answers4: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 4", correct: false },
-        { text: "Answer 3", correct: true },
-        { text: "Answer 4", correct: false },
-      ],
-    },
-    {
-      question4: "Question",
-      answers4: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 4", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: true },
+        { text: "Oprette en konto og forsette transaksjonen", correct: false },
+        { text: "Få dem til å investere i doge coin", correct: false },
+        { text: "Anmelde dem til politiet", correct: false },
+        { text: "Ikke etterkomme forespørselen", correct: true },
       ],
     },
   ],
