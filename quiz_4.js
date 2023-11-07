@@ -31,7 +31,7 @@ const questions4 = [
       ],
     },
     {
-      question4: "Hvilke av disse betalingsmetodene har sikkerhet",
+      question4: "Hvilke av disse betalingsmetodene har Svindel forsikring",
       answers4: [
         { text: "Crypto", correct: false },
         { text: "Gavekort", correct: false },

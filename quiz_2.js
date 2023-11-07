@@ -1,7 +1,8 @@
 const questions2 = [
   [
     {
-      question2: "Hva bør du gjøre dersom du blir ringt av en svindler",
+      question2:
+        "Dersom noen tilfeldig ringer deg og sier at de er fra microsoft hva bør du gjøre?",
       answers2: [
         { text: "Ikke ta telefonen og blokkere nummeret.", correct: true },
         { text: "Ringe 112 og anmelde svindelforsøket.", correct: false },
@@ -17,30 +18,59 @@ const questions2 = [
       ],
     },
     {
-      question2: "Question",
+      question2: "Hva bør du gjøre hvis du får en mail om å bytte passord?",
       answers2: [
-        { text: "Answer 1", correct: false },
-        { text: "TEST 2", correct: true },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: false },
+        {
+          text: "Sjekke avsender mailadresse, se etter logoer og trykke på lenken dersom det virker trygt",
+          correct: false,
+        },
+        {
+          text: "Se etter skrivefeil, sjekke avsender mail adresse og søke opp leken for å endre passord selv",
+          correct: true,
+        },
+        {
+          text: "Ringe til politiet og spørre om det er trygt å trykke på lenken",
+          correct: false,
+        },
+        { text: "Ignorere mailen", correct: false },
       ],
     },
     {
-      question2: "Question",
+      question2:
+        "Dersom du får en varslig om at du har et virus når du åpner Facebook, hva bør du gjøre?",
       answers2: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 2", correct: false },
-        { text: "Answer 3", correct: true },
-        { text: "Answer 4", correct: false },
+        {
+          text: "Skru av datamaskinen, dra ut internett kabelen og vente en time",
+          correct: false,
+        },
+        { text: "Laste ned et antivirusprogram", correct: false },
+        {
+          text: "Ringe telefonnummeret som kommer opp på skjermen",
+          correct: false,
+        },
+        {
+          text: "Skrive inn adressen til nettsiden du forsøkte å komme inn på på nytt igjen og ingorere varslingen",
+          correct: true,
+        },
       ],
     },
     {
-      question2: "Question",
+      question2:
+        "Hvorfor kjøper enkelte svindlere informasjon fra andre svindlere?",
       answers2: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 2", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: true },
+        {
+          text: "De kan bruke det til å svindle et letter offer og late som de skal hjelpe de med å få tilbake tapte penger",
+          correct: true,
+        },
+        {
+          text: "Få kartlagt hvor, hvilke og hvordan konkurenter får svindlet mest",
+          correct: false,
+        },
+        {
+          text: "De kan bruke inforamasjonen for å skape et digitalt fotsport som de kan bruke for å hacke offeret",
+          correct: false,
+        },
+        { text: "De kan bruke informasjonen til utpressing", correct: true },
       ],
     },
   ],
