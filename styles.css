@@ -13,7 +13,7 @@ body {
 h1.MainHeader {
   width: 90%;
   margin: 100px auto 0;
-  max-width: 900px;
+  max-width: 60%;
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -21,28 +21,28 @@ h1.MainHeader {
 h2.TitleHeaders {
   width: 90%;
   margin: 100px auto 0;
-  max-width: 900px;
+  max-width: 60%;
   margin-bottom: 1em;
 }
 
 h3.subHeader {
   width: 90%;
   margin: 100px auto 0;
-  max-width: 900px;
+  max-width: 60%;
   margin-bottom: 1em;
 }
 
 p {
   width: 90%;
   margin: 25px auto 0;
-  max-width: 900px;
+  max-width: 60%;
   line-height: 2rem;
 }
 
 li {
   width: 90%;
   margin: 100px auto 0;
-  max-width: 900px;
+  max-width: 60%;
 }
 
 input[type="checkbox"] {
