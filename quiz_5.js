@@ -1,28 +1,21 @@
 const questions5 = [
   [
     {
-      question5: "Hva bør du gjøre dersom du blir ringt av en svindler",
+      question5: "Hvilket av følgende er et sterkt/godt password?",
       answers5: [
-        { text: "Ikke ta telefonen og blokkere nummeret.", correct: true },
-        { text: "Ringe 115 og anmelde svindelforsøket.", correct: false },
-        {
-          text: "Ta telefonen og informere dem om at du er klar over at de driver med svindel.",
-          correct: false,
-        },
-        {
-          text: "Sette opp et program som konstant ringer dem og gjør det umulig for dem å ringe mulige offere.",
-          correct: false,
-        },
-        { text: "Svindle svindlerene.", correct: false },
+        { text: "passord1", correct: false },
+        { text: "987654321", correct: false },
+        { text: "Theodor1988", correct: false },
+        { text: "!HMsQ4VaGnJ-kK", correct: true },
       ],
     },
     {
-      question5: "Question",
+      question5: "Hva betyr tofaktorautentisering?",
       answers5: [
-        { text: "Answer 1", correct: false },
-        { text: "TEST 5", correct: true },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 5", correct: false },
+        { text: "Det betyr at man benytter to faktorer (bevis) for å bekrefte identitet ved pålogging.", correct: true },
+        { text: "Det er ei nettside som hjelper deg med å generere et sterkt passord.", correct: false },
+        { text: "Det er et program som hjelper deg å finne phishing e-poster.", correct: false },
+        { text: "Dette er et tilleggsspørsmål som stilles når du logger på kontoen din.", correct: false },
       ],
     },
     {
@@ -33,54 +26,7 @@ const questions5 = [
         { text: "Answer 3", correct: true },
         { text: "Answer 5", correct: false },
       ],
-    },
-    {
-      question5: "Question",
-      answers5: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 5", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 5", correct: true },
-      ],
-    },
-  ],
-  [
-    {
-      question5: "Question",
-      answers5: [
-        { text: "Answer 1", correct: true },
-        { text: "Answer 5", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 5", correct: false },
-      ],
-    },
-    {
-      question5: "Question",
-      answers5: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 5", correct: true },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 5", correct: false },
-      ],
-    },
-    {
-      question5: "Question",
-      answers5: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 5", correct: false },
-        { text: "Answer 3", correct: true },
-        { text: "Answer 5", correct: false },
-      ],
-    },
-    {
-      question5: "Question",
-      answers5: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 5", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 5", correct: true },
-      ],
-    },
+    },    
   ],
 ];
 
