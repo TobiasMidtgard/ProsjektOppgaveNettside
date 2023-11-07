@@ -10,23 +10,40 @@ const questions5 = [
       ],
     },
     {
-      question5: "Hva betyr tofaktorautentisering?",
+      question5:
+        "Hordan kan du få tilbake kontroll over datamaskinen din etter du har blitt svindlet",
       answers5: [
-        { text: "Det betyr at man benytter to faktorer (bevis) for å bekrefte identitet ved pålogging.", correct: true },
-        { text: "Det er ei nettside som hjelper deg med å generere et sterkt passord.", correct: false },
-        { text: "Det er et program som hjelper deg å finne phishing e-poster.", correct: false },
-        { text: "Dette er et tilleggsspørsmål som stilles når du logger på kontoen din.", correct: false },
+        { text: "Slette alle viktige filer", correct: false },
+        {
+          text: "Slette fjernstyringsprogramvare og gå til en troverdig teknisk support bedrift",
+          correct: true,
+        },
+        { text: "Answer Bytte alle passord", correct: false },
+        { text: "Passordbeskytte alle programmer og filer", correct: false },
+        { text: "Betale svindlerene for å fikse opp", correct: false },
       ],
     },
     {
-      question5: "Question",
+      question5: "Hva betyr tofaktorautentisering?",
       answers5: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 5", correct: false },
-        { text: "Answer 3", correct: true },
-        { text: "Answer 5", correct: false },
+        {
+          text: "Det betyr at man benytter to faktorer (bevis) for å bekrefte identitet ved pålogging.",
+          correct: true,
+        },
+        {
+          text: "Det er ei nettside som hjelper deg med å generere et sterkt passord.",
+          correct: false,
+        },
+        {
+          text: "Det er et program som hjelper deg å finne phishing e-poster.",
+          correct: false,
+        },
+        {
+          text: "Dette er et tilleggsspørsmål som stilles når du logger på kontoen din.",
+          correct: false,
+        },
       ],
-    },    
+    },
   ],
 ];
 
