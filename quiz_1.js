@@ -1,46 +1,46 @@
 const questions1 = [
   [
     {
-      question1: "Hva bør du gjøre dersom du blir ringt av en svindler",
+      question1: "Test quizen, velg svar 1 eller 3",
       answers1: [
-        { text: "Ikke ta telefonen og blokkere nummeret.", correct: true },
-        { text: "Ringe 112 og anmelde svindelforsøket.", correct: false },
+        { text: "1", correct: true },
+        { text: "2", correct: false },
+        { text: "3", correct: true },
+        { text: "4", correct: false },
+        { text: "5", correct: false },
+      ],
+    },
+    {
+      question1: "Hva er teknisk support-svindel",
+      answers1: [
         {
-          text: "Ta telefonen og informere dem om at du er klar over at de driver med svindel.",
+          text: "Aktører innen teknsik støtte som ikke gjør jobben de er betalt for",
           correct: false,
         },
         {
-          text: "Sette opp et program som konstant ringer dem og gjør det umulig for dem å ringe mulige offere.",
+          text: "Aktører som benytter phising metoder og utgjør seg for å være en troverdig bedrift for å lure offere",
+          correct: true,
+        },
+        {
+          text: "Antivirusprogrammer som ikke gjør det de er markedsført til",
+          correct: false,
+        },  
+        {
+          text: "Nettsider som forsøker å hente inn personopplysninger fra brukere",
           correct: false,
         },
-        { text: "Svindle svindlerene.", correct: false },
       ],
     },
     {
-      question1: "Question",
+      question1: "Hva blir ikke tatt for seg på nettsiden",
       answers1: [
-        { text: "Answer 1", correct: false },
-        { text: "TEST 2", correct: true },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: false },
-      ],
-    },
-    {
-      question1: "Question",
-      answers1: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 2", correct: false },
-        { text: "Answer 3", correct: true },
-        { text: "Answer 4", correct: false },
-      ],
-    },
-    {
-      question1: "Question",
-      answers1: [
-        { text: "Answer 1", correct: false },
-        { text: "Answer 2", correct: false },
-        { text: "Answer 3", correct: false },
-        { text: "Answer 4", correct: true },
+        { text: "Hvordan du oppdager teknisk support-svindel", correct: false },
+        { text: "Hva svindlere gjør under svindelen", correct: false },
+        { text: "Hvordan du kan installere et antivirus", correct: true },
+        {
+          text: "Hva du bør gjøre dersom du har blitt svindlet",
+          correct: false,
+        },
       ],
     },
   ],
