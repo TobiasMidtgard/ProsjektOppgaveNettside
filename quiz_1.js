@@ -24,7 +24,7 @@ const questions1 = [
         {
           text: "Antivirusprogrammer som ikke gjør det de er markedsført til",
           correct: false,
-        },  
+        },
         {
           text: "Nettsider som forsøker å hente inn personopplysninger fra brukere",
           correct: false,
